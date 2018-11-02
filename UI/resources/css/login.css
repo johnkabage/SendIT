@@ -1,0 +1,21 @@
+.forms {
+  display: flex;
+  flex-direction: column;
+}
+.sign_up {
+  width: 40%;
+  margin: 100px 0px 0px 300px;
+  box-shadow: 0.2rem 0.2rem 0.1rem 0.1rem rgb(218, 209, 209);
+}
+.layout {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+.btn {
+  padding: 13px;
+  border-radius: 6px;
+}
+.btn:hover {
+  transform: translateY(-3px);
+}
