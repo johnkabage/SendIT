@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../resources/css/profile.css">
+    <title>User profile</title>
+</head>
+
+<body>
+    <div class="profile">
+        <div class="sidebar">
+            <img class="avatar" src="https://i.pinimg.com/564x/18/64/ba/1864ba9d767067c4df9e07ad8198095c.jpg" alt="">
+            <div class="username">John Mburu</div>
+            <div class="user-email">johndoe@example.com</div>
+            <a href="/">Logout</a>
+        </div>
+        <div class="content">
+            <div class="stats">
+                <div class="card-stat">
+                    <h4>All requests</h4>
+                    <p>3</p>
+                </div>
+                <div class="card-stat">
+                    <h4>Delivered requests</h4>
+                    <p>1</p>
+                </div>
+                <div class="card-stat">
+                    <h4>Pending requests</h4>
+                    <p>1</p>
+                </div>
+                <div class="card-stat">
+                    <h4>Rejected requests</h4>
+                    <p>1</p>
+                </div>
+            </div>
+            <div class="orders">
+                <h4>All Requests</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Sender Name</th>
+                            <th>Parcel Name</th>
+                            <th>Recipient Name</th>
+                            <th>Pickup location</th>
+                            <th>Destination</th>
+                            <th>Weight</th>
+                            <th>Price</th>
+                            <th><em>Status</em></th>
+                            <th><em>Actions</em></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Julius</td>
+                            <td>Towels</td>
+                            <td>Dennis</td>
+                            <td>Eldoret</td>
+                            <td>Nakuru</td>
+                            <td>1.5kgs</td>
+                            <td>300</td>
+                            <td><em>Pending</em></td>
+                            <td>
+                                <a href="./edit.html" class="btn-action warning">edit</a>
+                                <button class="btn-action danger">cancel</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sammy</td>
+                            <td>Duvet</td>
+                            <td>Rotich</td>
+                            <td>Thika</td>
+                            <td>Mombasa</td>
+                            <td>4.5kgs</td>
+                            <td>587</td>
+                            <td><em>Delivered</em></td>
+                            <td>
+                                <a href="./edit.html" class="btn-action warning">edit</a>
+                                <button class="btn-action danger">cancel</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Johny</td>
+                            <td>Rollers</td>
+                            <td>Pesh</td>
+                            <td>Nairobi</td>
+                            <td>Kericho</td>
+                            <td>3.2kgs</td>
+                            <td>450</td>
+                            <td><em>Rejected</em></td>
+                            <td>
+                                <a href="./edit.html" class="btn-action warning">edit</a>
+                                <button class="btn-action danger">cancel</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
