@@ -13,7 +13,33 @@ body,
   display: flex;
 }
 
-.login-box {
+.page-wrapper {
+  background-color: whitesmoke;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.rates {
+  order: -1;
+  margin: 0 80px;
+  margin: 0;
+  width: 100%;
+}
+
+.grams > p,
+.price > p {
+  padding-top: 20px;
+}
+
+.rates-details {
+  margin-top: 20px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-box,
+.request-box {
   margin: auto;
   background-color: #fff;
   min-height: 250px;
@@ -21,10 +47,17 @@ body,
   padding: 40px;
   display: flex;
   flex-direction: column;
+  border: solid 1px #edd;
+}
+
+.request-box {
+  margin: 0;
+  height: 500px;
+  width: 700px;
 }
 
 .brand {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -44,7 +77,7 @@ input:hover {
   border: solid 1px #999;
 }
 input[type="button"] {
-  background-color: rgb(0, 162, 255);
+  background-color: rgb(0, 153, 255);
   color: #fff;
   cursor: pointer;
 }
