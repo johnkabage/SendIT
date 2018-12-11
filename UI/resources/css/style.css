@@ -117,8 +117,7 @@ h2:after {
 /*HEADER*/
 /*-------------------------------------------------------------------*/
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(background-img/parcel.jpg);
+  background: dodgerblue;
   background-size: cover;
   background-position: center;
   height: 100vh;
