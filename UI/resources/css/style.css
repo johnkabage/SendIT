@@ -124,8 +124,6 @@ header {
 }
 
 .heads-login {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(img/parcel.jpg);
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -183,6 +181,21 @@ header {
   display: flex;
   justify-content: space-evenly;
 }
+.parcel-photo {
+  width: 25%;
+  background: #999;
+}
+.parcel-photo img {
+  transform: scale(1.10);
+  opacity: 0.7;
+  transition: transform 0.5s, opacity 0.5s;
+}
+.parcel-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+}
 
 .image-man {
   width: 80%;
@@ -199,16 +212,13 @@ header {
 }
 
 .footer-container {
-  background-color: rgb(97, 93, 100);
+  background-color: dodgerblue;
   height: 90px;
 }
 .copy {
   color: white;
   text-align: center;
   margin-top: 1%;
-}
-
-.icons {
 }
 
 .social {
